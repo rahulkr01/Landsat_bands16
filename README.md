@@ -1,8 +1,6 @@
 # Emp_from_Landsat
 Predicting Employment from Landsat data of villages
 
-To train vggm netork:
-nohup python train.py > log,txt 2>&1 &
 
 To evaluate the model performance on test data:
 nohup python test.py > eval_log.txt 2>&1 &
@@ -22,3 +20,15 @@ open tensorboard on local machine:
 http://localhost:16006
 
 ![Inception-v3 Architecture](Results/graph.png)
+
+
+Training:
+To train vggm netork:
+nohup python train.py > log,txt 2>&1 &
+Training network with learning rate of 1e-4 for 200 iterations and then 1e-5 gives following loss plot:
+
+![Train_loss](Results/train_loss.png)
+
+
+
+
