@@ -58,3 +58,6 @@ Normalized Confusion matrix:
 
 ![Normalized_confusion_matrix](Results/normalized_confusion_matrix.png)
 
+
+Test accuracy obtained is 52.82% with 80-20 train-test split of the dataset.
+
