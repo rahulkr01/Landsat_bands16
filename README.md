@@ -58,7 +58,3 @@ Normalized Confusion matrix:
 
 ![Normalized_confusion_matrix](Results/normalized_confusion_matrix.png)
 
-
-
-
-
