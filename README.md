@@ -20,3 +20,5 @@ nohup tensorboard --logdir= <directory of saved model>       > tensorboard_out.t
 
 open tensorboard on local machine:
 http://localhost:16006
+
+![Inception-v3 Architecture](Results/graph.png)
